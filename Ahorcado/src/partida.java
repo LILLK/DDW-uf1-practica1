@@ -34,7 +34,7 @@ public class partida {
 				System.out.println("");
 
 				if (palabra.existeLetra(usadas.get(usadas.size() - 1))) {// se acierta la letra
-					System.out.println("Has acertado !");
+					System.out.println("Has acertado, muy buena maquina !");
 					palabra.imprimirPxL(usadas);
 					acierto += letrasDescubiertas(palabra, usadas.get(usadas.size() - 1));
 					// se le suma a "acierto" el numero de letras que coinciden de la palabra
