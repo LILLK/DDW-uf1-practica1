@@ -127,7 +127,7 @@ public class Palabra {
 		}
 		System.out.println("");
 		System.out.print("Palabara: ");
-		for (int i = 0; i < this.longitud; i++) {
+		for (int i = 0; i < this.longitud; i++) { // PARA SABER LA LONGITUD DE LA PALABRA QUE TIENES DE ADIVINAR !!
 			System.out.print("*");
 		}
 		System.out.println("");
