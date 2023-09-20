@@ -17,7 +17,7 @@ public class Ranking {
 		while (!salir) {
 			ordenarHistorial(historial, a);
 			imprimirHistorial(historial);
-			System.out.println("\n-- MENU Ranking --");
+			System.out.println("\n-- MENU Ranking Posiciones --");// Esto es un comentario para generar conflictos
 			System.out.println("1. Ordenar por puntuacion");
 			System.out.println("2. Ordenar por victorias");
 			System.out.println("3. Volver al menu principal");
